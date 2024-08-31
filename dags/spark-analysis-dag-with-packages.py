@@ -1,6 +1,6 @@
 from datetime import timedelta
 from airflow import DAG
-from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
+from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator # type: ignore
 from airflow.utils.dates import days_ago
 import os
 
