@@ -6,3 +6,5 @@ how to install
 3. run make spark
 4. run make airflow
 
+how to run airflow
+open http://localhost:8081
